@@ -60,6 +60,8 @@ if let Some(i) = optional {
     println!("값은 {}입니다.", i);
 }
 
+
+
 if let 표현식은 optional 값이 Some(i)인 경우에만 코드를 실행하며, None인 경우는 무시합니다. match와 달리 if let은 모든 경우를 처리하지 않아도 됩니다.
 
 모든 경우를 처리해야 할 때는 match를 사용하고, 특정 패턴에만 관심이 있을 때는 if let을 사용하면 됩니다.
